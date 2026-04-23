@@ -80,10 +80,10 @@
           </button>
         </form>
 
-        <p class="text-center text-sm text-indigo-400 mt-6">
+        <!-- <p class="text-center text-sm text-indigo-400 mt-6">
           Don't have an account?
           <a href="/register" class="text-indigo-300 font-semibold hover:text-white transition-colors">Sign up</a>
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
