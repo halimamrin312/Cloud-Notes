@@ -1,27 +1,27 @@
-# 🔮 Cloud Notes - AI Powered Note App
+# Cloud Notes - AI Powered Note App
 
 Cloud Notes adalah aplikasi pencatatan modern berbasis cloud yang mengintegrasikan kecerdasan buatan (AI) untuk membantu pengguna mengelola pikiran, ide, dan catatan dengan lebih efisien. Dibangun dengan fokus pada estetika premium, kecepatan, dan fungsionalitas cerdas.
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Smart Note Management**: CRUD (Create, Read, Update, Delete) catatan dengan dukungan kategori, tag, dan pemilihan warna.
 - **Organization Tools**:
-    - **📌 Pin Note**: Sematkan catatan penting agar selalu berada di posisi teratas.
-    - **📦 Archive**: Simpan catatan lama ke dalam arsip agar tampilan utama tetap bersih.
-    - **🎨 Color Coding**: Kategorikan catatan secara visual dengan palet warna yang elegan.
-- **🤖 AI Assistant Integration (Gemini 2.0)**:
-    - **📝 Summarize**: Merangkum catatan panjang menjadi beberapa kalimat inti.
-    - **✨ Improve**: Memperbaiki tata bahasa, kejelasan, dan alur tulisan secara otomatis.
-    - **🔮 Expand**: Mengembangkan ide singkat menjadi penjelasan yang lebih mendalam.
-    - **💡 Auto Title & Tags**: Menghasilkan judul dan tag yang relevan berdasarkan isi catatan.
-    - **💬 Interactive AI Chat**: Asisten chatbot yang memahami konteks catatan yang sedang Anda kerjakan.
-- **💎 Premium UI/UX**: Tampilan *Glassmorphism* yang modern, responsif, dan dilengkapi dengan animasi yang halus.
+    - ** Pin Note**: Sematkan catatan penting agar selalu berada di posisi teratas.
+    - ** Archive**: Simpan catatan lama ke dalam arsip agar tampilan utama tetap bersih.
+    - ** Color Coding**: Kategorikan catatan secara visual dengan palet warna yang elegan.
+- ** AI Assistant Integration (Gemini 2.0)**:
+    - ** Summarize**: Merangkum catatan panjang menjadi beberapa kalimat inti.
+    - ** Improve**: Memperbaiki tata bahasa, kejelasan, dan alur tulisan secara otomatis.
+    - ** Expand**: Mengembangkan ide singkat menjadi penjelasan yang lebih mendalam.
+    - ** Auto Title & Tags**: Menghasilkan judul dan tag yang relevan berdasarkan isi catatan.
+    - **Interactive AI Chat**: Asisten chatbot yang memahami konteks catatan yang sedang Anda kerjakan.
+- ** Premium UI/UX**: Tampilan *Glassmorphism* yang modern, responsif, dan dilengkapi dengan animasi yang halus.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Laravel 11 (PHP 8.2+)
 - **Frontend**: Vue.js 3 with Inertia.js
@@ -31,7 +31,7 @@ Cloud Notes adalah aplikasi pencatatan modern berbasis cloud yang mengintegrasik
 
 ---
 
-## 🚀 Panduan Instalasi (Developer)
+## Panduan Instalasi (Developer)
 
 Ikuti langkah-langkah berikut untuk menjalankan project ini di lingkungan lokal Anda:
 
@@ -90,7 +90,7 @@ Aplikasi dapat diakses di `http://localhost:8000`.
 
 ---
 
-## 📖 Panduan Penggunaan Aplikasi
+## Panduan Penggunaan Aplikasi
 
 ### Mengelola Catatan
 1. **Membuat Catatan**: Klik tombol **"New Note"**, masukkan judul, isi, dan pilih warna atau kategori jika perlu. Tekan `Ctrl + Enter` untuk menyimpan dengan cepat.
@@ -105,7 +105,7 @@ Aplikasi dapat diakses di `http://localhost:8000`.
 
 ---
 
-## 📂 Struktur Penting (Developer Guide)
+## Struktur Penting (Developer Guide)
 
 - **`app/Http/Controllers/AiController.php`**: Pusat logika integrasi API AI.
 - **`app/Http/Controllers/NoteController.php`**: Logika CRUD, Archive, dan Pinning.
